@@ -1,0 +1,503 @@
+/* Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Estilo web */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #4d4d4d;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+h4 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* clases */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.large {
+	font-size: 1.25rem;
+}
+
+.txt-orange {
+	color: #e9a075;
+}
+
+.display-1 {
+	font-size: 4rem;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 4px;
+}
+
+.btn-round {
+	border-radius: 20px;
+}
+
+.btn-dark {
+	background: #e9a075;
+	border: 1px solid #e9a075;
+	color: #fff;
+}
+
+.btn-dark:hover {
+	background: #d19069;
+	color: #fff;
+}
+
+form label {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+form .form-group {
+	margin-bottom: 16px;
+}
+
+form .form-control {
+	display: block;
+	width: 100%;
+	padding: 7px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background: #fff;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+}
+
+/* H Principal */
+#mainheader {
+	background: radial-gradient(at 10% 10px, #e9a075, #fff, #fff);
+	height: 100vh;
+}
+
+/* Nav */
+#navbar {
+	color: #fff;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #4d4d4d;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 16px;
+	font-size: 25px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover {
+	color: #d19069;
+}
+
+/* fotobanner */
+#fotobanner {
+	padding: 80px 0;
+}
+
+.fotobanner-row {
+	display: flex;
+	padding: 150px 0;
+}
+
+/* Portfolio */
+#web {
+	padding: 80px 0;
+	text-align: center;
+}
+
+#web p {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.web-row {
+	display: flex;
+}
+
+.web-row img {
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+/* Información */
+#sobremi {
+	padding: 80px 0;
+	text-align: center;
+}
+
+#sobremi {
+	padding-bottom: 50px;
+}
+
+#sobremi p {
+	padding-bottom: 20px;
+}
+
+/* Contacto */
+#contacto {
+	padding: 80px 0;
+}
+
+#contacto h2 {
+	text-align: center;
+}
+
+.contacto-row {
+	display: flex;
+	padding: 20px;
+}
+
+.contacto-row-img {
+	width: 50%;
+}
+
+.contacto-row-img img {
+	padding: 120px;
+}
+
+.contacto-row-form {
+	width: 50%;
+	border: 1px solid #c4c4c4;
+	border-radius: 10px;
+	padding: 70px;
+}
+
+.contacto-row-form h4 {
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.contacto-row-form button {
+	width: 100%;
+}
+
+
+footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+ }
+ 
+ footer nav#sociales{
+	width: 100%;
+	padding: 10px;
+	background-color: ghostwhite;
+}
+
+footer nav#sociales a {
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+@media screen and (min-with:650px) {
+
+	/* Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Estilo web */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #fd0000;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+h4 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* clases */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.large {
+	font-size: 1.25rem;
+}
+
+.txt-orange {
+	color: #e9a075;
+}
+
+.display-1 {
+	font-size: 4rem;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 4px;
+}
+
+.btn-round {
+	border-radius: 20px;
+}
+
+.btn-dark {
+	background: #e9a075;
+	border: 1px solid #e9a075;
+	color: #fff;
+}
+
+.btn-dark:hover {
+	background: #d19069;
+	color: #fff;
+}
+
+form label {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+form .form-group {
+	margin-bottom: 16px;
+}
+
+form .form-control {
+	display: block;
+	width: 100%;
+	padding: 7px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background: #fff;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+}
+
+/* H Principal */
+#mainheader {
+	background: radial-gradient(at 10% 10px, #e9a075, #fff, #fff);
+	height: 100vh;
+}
+
+/* Nav */
+#navbar {
+	color: #fff;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #4d4d4d;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 16px;
+	font-size: 25px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover {
+	color: #d19069;
+}
+
+/* fotobanner */
+#fotobanner {
+	padding: 80px 0;
+}
+
+.fotobanner-row {
+	display: flex;
+	padding: 150px 0;
+}
+
+/* Portfolio */
+#web {
+	padding: 80px 0;
+	text-align: center;
+}
+
+#web p {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.web-row {
+	display: flex;
+}
+
+.web-row img {
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+/* Información */
+#sobremi {
+	padding: 80px 0;
+	text-align: center;
+}
+
+#sobremi {
+	padding-bottom: 50px;
+}
+
+#sobremi p {
+	padding-bottom: 20px;
+}
+
+/* Contacto */
+#contacto {
+	padding: 80px 0;
+}
+
+#contacto h2 {
+	text-align: center;
+}
+
+.contacto-row {
+	display: flex;
+	padding: 20px;
+}
+
+.contacto-row-img {
+	width: 50%;
+}
+
+.contacto-row-img img {
+	padding: 120px;
+}
+
+.contacto-row-form {
+	width: 50%;
+	border: 1px solid #c4c4c4;
+	border-radius: 10px;
+	padding: 70px;
+}
+
+.contacto-row-form h4 {
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.contacto-row-form button {
+	width: 100%;
+}
+
+
+footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+ }
+ 
+ footer nav#sociales{
+	width: 100%;
+	padding: 10px;
+	background-color: ghostwhite;
+}
+
+footer nav#sociales a {
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+	
+}
+
